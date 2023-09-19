@@ -1,0 +1,16 @@
+.demo{
+    color: red !important;
+    font-size: 20px;
+    animation: anim linear 15s infinite normal 0s;
+    z-index: 1;
+    position: relative;
+    width: 100000px;
+    transform: translateX(0);
+    overflow: hidden;
+}
+@keyframes anim {
+    100%{
+        /* transform: translateX(-1551.2px); */
+        transform: translateX(-1593px);
+    }
+}
